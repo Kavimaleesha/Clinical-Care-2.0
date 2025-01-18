@@ -1,0 +1,180 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('/pis/images/109.jpg');
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+#title{
+	color: white;
+	font-size: 28px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	font-style: initial;
+	font-family: 'poppins',sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+	opacity: .8;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 16px;
+	padding: 7px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a:hover{
+	transition: -5s;
+	box-shadow: 0 0 5px #33ffff,0 0 5px #33ffff;
+	color: cyan;
+}
+
+.active{
+	transition: -5s;
+	box-shadow: 0 0 5px #33ffff,0 0 5px #33ffff;
+	color: cyan;
+} 
+
+.container{
+	width: 60%;
+	margin: auto;
+	background-color: white;
+	padding: 30px;
+	border-color: gray;
+	border-width: 1px;
+	margin-top: 60px;
+	border-style: solid;
+	opacity: .5;
+	border-radius: 10px;
+	margin-bottom: 5px;
+
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'poppins',sans-serif;
+	color: gray;
+}
+
+
+label{
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+#slt{
+	width: 500px;
+	padding: 5px;
+	border-radius: 5px;
+	color: gray;
+	font-style: italic;
+	font-size: 16px;
+	font-family: "Times New Roman";
+}
+
+#test{
+	columns: 100;
+	width: 500px;
+	height: 150px;
+	color: gray;
+	font-size: 16px;
+	font-family: "Times New Roman";
+}
+
+#name{
+	width: 500px;
+	padding: 8px;
+	border-radius: 5px;
+	color: gray;
+	font-style: italic;
+	font-size: 16px;
+	font-family: "Times New Roman";
+}
+
+#booking{
+	width: 150px;
+	border-radius: 20px;
+	color: white;
+	background-color: #0082e6;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#booking:hover{
+	box-shadow: 0 0 7px black,0 0 7px gray;
+}
+
+#frm{
+	margin-left: 300px;
+}
+
+.view_btn {
+	    text-decoration: none;
+	    padding: 5px 10px;
+	    color: white;
+	    border-radius: 2px;
+	    background: #0082e6;
+}
+
+.edit_btn{
+		text-decoration: none;
+	    padding: 5px 10px;
+	    color: white;
+	    border-radius: 3px;
+	    background: #0082e6;
+}
+
+#s{
+	background: white;
+	/*opacity: .8;*/
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+}
+
+#slts{
+	width: 300px;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-family: "Times New Roman";
+	font-size: 14px;
+	font-style: italic;
+	color: black;
+	border: 1px solid black;
+}

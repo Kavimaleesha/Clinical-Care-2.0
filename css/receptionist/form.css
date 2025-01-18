@@ -1,0 +1,121 @@
+.content {
+
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: #FFFAF0;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+   
+}
+
+form {
+
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+   
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+input[type=text] , select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=date] , select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=number]{
+
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+
+form.search{ 
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  margin: 50px auto;
+}
+
+form.search button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin: 50px auto;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
